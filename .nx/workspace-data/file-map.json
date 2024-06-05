@@ -91,64 +91,64 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11561943057373091108"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".nx/nxw.js",
-        "hash": "11254603345854076312"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
       },
       {
         "file": "nx.bat",
         "hash": "16828809655253213278"
       },
       {
-        "file": "README.md",
-        "hash": "11040539316357477376"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17336573201097274034"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "17454887444677692384"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
+        "file": ".gitignore",
+        "hash": "11561943057373091108"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "13189885415267435584"
       },
       {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "README.md",
+        "hash": "11040539316357477376"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17336573201097274034"
+      },
+      {
         "file": "package.json",
         "hash": "13666115974518946091"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17454887444677692384"
       }
     ],
     "projectFileMap": {
