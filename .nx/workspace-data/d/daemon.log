@@ -208,3 +208,20 @@
 [NX Daemon Server] - 2024-06-05T18:20:40.346Z - [WATCHER]: Stopping the watcher for C:\projects\Looking-Hunter (sources)
 [NX Daemon Server] - 2024-06-05T18:20:40.346Z - [WATCHER]: Stopping the watcher for C:\projects\Looking-Hunter (outputs)
 [NX Daemon Server] - 2024-06-05T18:20:40.346Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-06-05T18:20:41.726Z - Started listening on: \\.\pipe\nx\C:\Users\manoj\AppData\Local\Temp\6b3cca9237fc8235e971\d.sock
+[NX Daemon Server] - 2024-06-05T18:20:41.731Z - [WATCHER]: Subscribed to changes within: c:\projects\Looking-Hunter (native)
+[NX Daemon Server] - 2024-06-05T18:20:41.733Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-05T18:20:41.734Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-05T18:20:41.740Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-05T18:20:41.743Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-05T18:20:42.076Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-05T18:20:42.076Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-05T18:20:42.076Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-05T18:20:44.866Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-05T18:20:44.870Z - Time taken for 'total for creating and serializing project graph' 3122.46420000121ms
+[NX Daemon Server] - 2024-06-05T18:20:44.874Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-05T18:20:44.874Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3122. Response time: 9.
+[NX Daemon Server] - 2024-06-05T18:20:44.878Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-05T18:20:44.878Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-05T18:20:44.878Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-05T18:20:44.879Z - Closed a connection. Number of open connections: 0
