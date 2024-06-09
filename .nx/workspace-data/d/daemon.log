@@ -494,3 +494,51 @@
 [NX Daemon Server] - 2024-06-09T17:47:42.321Z - Done responding to the client handleNxWorkspaceFiles
 [NX Daemon Server] - 2024-06-09T17:47:42.321Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
 [NX Daemon Server] - 2024-06-09T17:47:42.411Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-09T17:50:43.871Z - Started listening on: \\.\pipe\nx\C:\Users\manoj\AppData\Local\Temp\6b3cca9237fc8235e971\d.sock
+[NX Daemon Server] - 2024-06-09T17:50:43.877Z - [WATCHER]: Subscribed to changes within: C:\projects\Looking-Hunter (native)
+[NX Daemon Server] - 2024-06-09T17:50:43.882Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:50:43.884Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-09T17:50:43.888Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:50:43.895Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-06-09T17:50:43.896Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-06-09T17:50:43.896Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-06-09T17:50:43.935Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-09T17:50:43.984Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:50:43.985Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-09T17:50:43.985Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:50:43.987Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-09T17:50:45.046Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-09T17:50:45.046Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-09T17:50:45.046Z - [REQUEST]: 
+Error reading 'C:\projects\Looking-Hunter\.nx\workspace-data\file-map.json'. Continue the process without the cache.
+Error: InvalidSymbol in C:\projects\Looking-Hunter\.nx\workspace-data\file-map.json at 92:1
+  90 |   ],
+  91 |   "fileMap": {
+> 92 | <<<<<<< HEAD
+     | ^^^^^^^
+  93 |     "nonProjectFiles": [
+  94 |       {
+  95 |         "file": "jest.preset.js",
+
+    at parseJson (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\utils\json.js:27:15)
+    at readJsonFile (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\utils\fileutils.js:22:37)
+    at readFileMapCache (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\project-graph\nx-deps-cache.js:42:49)
+    at createAndSerializeProjectGraph (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:229:274)
+    at processFilesAndCreateAndSerializeProjectGraph (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:160:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCachedSerializedProjectGraphPromise (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\server.js:130:16)
+    at async handleMessage (C:\projects\Looking-Hunter\.nx\installation\node_modules\nx\src\daemon\server\server.js:89:9)
+[NX Daemon Server] - 2024-06-09T17:50:48.370Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-09T17:50:48.375Z - Time taken for 'total for creating and serializing project graph' 4382.754400014877ms
+[NX Daemon Server] - 2024-06-09T17:50:48.376Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-09T17:50:48.376Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 4383. Response time: 6.
+[NX Daemon Server] - 2024-06-09T17:50:48.381Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-09T17:50:48.382Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-09T17:50:48.382Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-09T17:50:48.382Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-09T17:51:31.279Z - [WATCHER]: .nx/workspace-data/d/server-process.json was deleted
+[NX Daemon Server] - 2024-06-09T17:51:31.280Z - [WATCHER]: Stopping the watcher for C:\projects\Looking-Hunter (sources)
+[NX Daemon Server] - 2024-06-09T17:51:31.280Z - [WATCHER]: Stopping the watcher for C:\projects\Looking-Hunter (outputs)
+[NX Daemon Server] - 2024-06-09T17:51:31.280Z - Server stopped because: "this process is no longer the current daemon (native)"
