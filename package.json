@@ -1,4 +1,19 @@
 {
+  "name": "looking_hunter",
+  "version": "0.0.1",
+  "scripts": {
+    "ng": "nx",
+    "start": "nx serve",
+    "start:api": "nx serve api",
+    "start:web": "nx serve web",
+    "build": "nx build",
+    "build:api": "nx build api",
+    "build:web": "nx build web",
+    "test": "nx test",
+    "lint": "nx lint",
+    "e2e": "nx e2e"
+  },
+  "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.0.0",
     "@angular-devkit/core": "~18.0.0",
