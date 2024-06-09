@@ -225,3 +225,20 @@
 [NX Daemon Server] - 2024-06-05T18:20:44.878Z - Done responding to the client handleContextFileData
 [NX Daemon Server] - 2024-06-05T18:20:44.878Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-06-05T18:20:44.879Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-09T17:41:47.260Z - Started listening on: \\.\pipe\nx\C:\Users\manoj\AppData\Local\Temp\6b3cca9237fc8235e971\d.sock
+[NX Daemon Server] - 2024-06-09T17:41:47.268Z - [WATCHER]: Subscribed to changes within: c:\projects\Looking-Hunter (native)
+[NX Daemon Server] - 2024-06-09T17:41:47.270Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:41:47.276Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-09T17:41:47.279Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-09T17:41:47.281Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-09T17:41:47.735Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-09T17:41:47.736Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-09T17:41:47.736Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-09T17:41:50.764Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-09T17:41:50.768Z - Time taken for 'total for creating and serializing project graph' 3482.3727999925613ms
+[NX Daemon Server] - 2024-06-09T17:41:50.769Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-09T17:41:50.769Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3483. Response time: 5.
+[NX Daemon Server] - 2024-06-09T17:41:50.777Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-09T17:41:50.777Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-09T17:41:50.777Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-09T17:41:50.778Z - Closed a connection. Number of open connections: 0
