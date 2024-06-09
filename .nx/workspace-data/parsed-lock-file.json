@@ -5841,6 +5841,15 @@
         "hash": "sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg=="
       }
     },
+    "npm:babel-plugin-macros@3.1.0": {
+      "type": "npm",
+      "name": "npm:babel-plugin-macros@3.1.0",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "babel-plugin-macros",
+        "hash": "sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg=="
+      }
+    },
     "npm:babel-plugin-polyfill-corejs2": {
       "type": "npm",
       "name": "npm:babel-plugin-polyfill-corejs2",
@@ -23731,6 +23740,21 @@
       "type": "static"
     },
     {
+      "source": "npm:babel-plugin-macros@3.1.0",
+      "target": "npm:@babel/runtime",
+      "type": "static"
+    },
+    {
+      "source": "npm:babel-plugin-macros@3.1.0",
+      "target": "npm:cosmiconfig@7.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:babel-plugin-macros@3.1.0",
+      "target": "npm:resolve",
+      "type": "static"
+    },
+    {
       "source": "npm:chalk@4.1.2",
       "target": "npm:ansi-styles@4.3.0",
       "type": "static"
@@ -23743,6 +23767,36 @@
     {
       "source": "npm:color-convert@2.0.1",
       "target": "npm:color-name@1.1.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@7.1.0",
+      "target": "npm:@types/parse-json",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@7.1.0",
+      "target": "npm:import-fresh",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@7.1.0",
+      "target": "npm:parse-json",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@7.1.0",
+      "target": "npm:path-type",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@7.1.0",
+      "target": "npm:yaml",
+      "type": "static"
+    },
+    {
+      "source": "npm:dedent@1.5.3",
+      "target": "npm:babel-plugin-macros@3.1.0",
       "type": "static"
     },
     {
