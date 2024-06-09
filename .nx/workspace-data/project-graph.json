@@ -12701,11 +12701,6 @@
         "source": "api",
         "target": "npm:@nestjs/core",
         "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:@nx/webpack",
-        "type": "static"
       }
     ],
     "web": [
