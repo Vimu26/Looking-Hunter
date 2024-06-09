@@ -3,3 +3,4 @@
 .nx/cache
 .angular
 node_modules
+.nx
